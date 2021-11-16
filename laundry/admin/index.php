@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sistem Informasi Laundry</title>
-</head>
-<body>
-    <h2>Halaman Admin</h2>
-    <br>
-    <?php
-        session_start();
-        if($_SESSION['status']!="login"){
-            header("location:../index.php?pesan=belum_login");
-        }
-        ?>
-    <h4>Selamat datang, <?php echo $_SESSION['username']; ?>! anda telah login.</h4>
+<?php include 'header.php'; ?> 
 
-    <p>selamt datang di halaman admin. halaman admin masih kosong. yuk buat halaman admin nya dulu biar kece.</p>
-
-    <a href="logout.php">LOGOUT</a>
-</body>
-</html>
+<div class="container"> 
+    <div class="alert alert-info text-center"> 
+        <h4 style="margin-bottom: 0px"><b>Selamat datang!</b> di sistem informasi laundry SMKN 7 Baleendah.</h4> 
+    </div> 
+    <div class="panel"> 
+        <div class="panel-heading"> 
+            <h4>Dashboard</h4> 
+        </div> 
+        <div class="panel-body"> Sistem Informasi Laundry Malas Ngoding </div> 
+    </div> 
+</div> <?php include 'footer.php'; ?>
