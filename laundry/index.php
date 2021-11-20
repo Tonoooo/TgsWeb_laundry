@@ -29,7 +29,7 @@
 				        }
 			        }
 			    ?>			
-                <form action="" method="post">
+                <form action="login.php" method="post">
                 <div class="mb-3">
                     <label for="Username" class="form-label">Username</label>
                     <input type="Username" class="form-control" id="Username" aria-describedby="emailHelp" name="">
