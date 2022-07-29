@@ -6,7 +6,7 @@ Halaman login
 
 Dashbord
 
-![Screenshot 2022-04-12 171109](https://user-images.githubusercontent.com/92434748/178957978-bce370e2-d41c-47e6-a8f7-cd3719406e88.png)
+![Screenshot 2022-07-29 185956](https://user-images.githubusercontent.com/92434748/181754406-c1c80cb8-9e27-419e-8766-1504f85b1c54.png)
 
 Data pelanggan
 
